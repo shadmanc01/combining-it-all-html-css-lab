@@ -1,0 +1,13 @@
+
+nav > h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    background-color: #198679;
+    margin-top: 0;
+    align-items: center;
+}
+
+content{
+    img: 90%;
+}

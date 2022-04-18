@@ -1,0 +1,37 @@
+body{
+    padding: 0;
+    margin:0;
+}
+.home{
+    grid-area: home;
+}
+
+.pt{
+    grid-area: pt;
+}
+
+.about{
+    grid-area: ab;
+}
+
+.mainpg{
+    grid-area: body;
+}
+
+.top{
+    display: grid;
+    grid-area: top;
+    grid-template-columns: 4fr 1fr 1fr;
+    grid-template-areas: "pt home ab";
+    justify-content: center;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 7fr;
+    grid-template-areas:
+    "top top top"
+    "body body body"
+}
