@@ -6,8 +6,10 @@ nav > h1{
     background-color: #198679;
     margin-top: 0;
     align-items: center;
+    font-family: 'Raleway', sans-serif;
 }
 
 content{
     img: 90%;
+    font-family: 'Raleway', sans-serif;
 }
